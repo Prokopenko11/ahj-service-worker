@@ -13,7 +13,7 @@ class App {
   }
 
   async handleWindowLoad() {
-    await ServiceWorkerManager.register('/service.worker.js');
+    await ServiceWorkerManager.register('/dist/service.worker.js');
   }
 }
 
